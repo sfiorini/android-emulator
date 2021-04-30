@@ -11,7 +11,9 @@ listEmulators()
     if (avds && avds.length > 0) {
       startEmulator(avds[0]);
     }
-    process.exit(0);
+    setTimeout(() => {
+      process.exit(0);
+    }, 7000);
   })
   .catch((err) => {
     console.error(err);
