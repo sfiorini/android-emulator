@@ -1,7 +1,7 @@
 {
   "name": "@sfiorini/android-emulator",
   "repository": "https://github.com/sfiorini/android-emulator",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Use to launch the android emulator",
   "main": "index.js",
   "scripts": {
